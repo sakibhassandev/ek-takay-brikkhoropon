@@ -4,9 +4,12 @@ import { overpass, poppins } from "./components/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "এক টাকাই ব্রিক্ষরুপন",
+  title: {
+    template: "%s | এক টাকাই বৃক্ষরোপণ",
+    default: "মূল পাতা | এক টাকাই বৃক্ষরোপণ",
+  },
   description:
-    "GiGive One Taka Daily, Change Bangladesh Gradually by Planting Trees",
+    "Give One Taka Daily, Change Bangladesh Gradually by Planting Trees",
 };
 
 export default function RootLayout({

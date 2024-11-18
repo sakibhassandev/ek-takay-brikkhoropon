@@ -1,3 +1,4 @@
+import Slider from "./components/ui/home/Slider";
 import Header from "./components/ui/home/Header";
 import Hero from "./components/ui/home/Hero";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="relative min-h-screen">
       <Header />
       <Hero />
+      <Slider />
     </div>
   );
 }
