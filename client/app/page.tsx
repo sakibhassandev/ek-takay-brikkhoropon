@@ -1,8 +1,9 @@
 import Slider from "./components/ui/home/Slider";
-import Header from "./components/ui/home/Header";
+import Header from "./components/ui/Header";
 import Hero from "./components/ui/home/Hero";
 import PromotionalVideo from "./components/ui/home/PromotionalVideo";
 import { Gallery } from "./components/ui/home/Gallery";
+import Footer from "./components/ui/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <PromotionalVideo />
       <Slider />
       <Gallery />
+      <Footer />
     </div>
   );
 }
