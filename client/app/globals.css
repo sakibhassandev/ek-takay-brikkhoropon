@@ -32,3 +32,16 @@
     display: none;
   }
 }
+
+/* Image Modal */
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+}
+
+@layer components {
+  .modal-open {
+    @apply overflow-hidden;
+  }
+}

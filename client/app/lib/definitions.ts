@@ -5,3 +5,12 @@ export type SliderItem = {
   description: string;
   image: string;
 };
+
+export type ImageModalProps = {
+  imageUrl: string;
+  onClose: () => void;
+  currentIndex: number;
+  totalImages: number;
+  onPrevious: () => void;
+  onNext: () => void;
+};

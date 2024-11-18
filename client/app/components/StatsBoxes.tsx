@@ -8,7 +8,7 @@ const StatsBoxes = () => {
   ];
 
   return (
-    <div className="absolute -bottom-40 md:bottom-0 left-0 right-0 container mx-auto px-4 md:mb-8">
+    <div className="absolute -bottom-60 sm:-bottom-48 md:bottom-0 left-0 right-0 container mx-auto px-4 md:mb-8">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {statsData.map((stat, index) => (
           <motion.div
