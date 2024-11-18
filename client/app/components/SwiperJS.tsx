@@ -13,35 +13,44 @@ import "swiper/css/pagination";
 const newsItems: SliderItem[] = [
   {
     id: 1,
-    title: "বিজয়ের সুবর্ণজয়ন্তীতে হাসুক ওরাও",
-    subtitle: "হাইলাজারী উপজেলার মহামানদাস",
-    description: "ইউনিয়নের একটি প্রত্যন্ত ...",
-    image:
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop",
+    title: "চ্যালেঞ্জ ফর ফিউচার",
+    subtitle:
+      "যেখানে একজন ব্যাক্তি একটি গাছ রোপণ করে তার তিনজন বন্ধুকে গাছ রোপণের চ্যালেঞ্জ করবে।",
+    description: "এই ইভেন্টের মধ্য দিয়ে আমরা দুইশো বৃক্ষরোপণে করেছি।.....",
+    image: "/images/image6.jpg",
   },
   {
     id: 2,
-    title: "মাদ্রাসা ইভেন্ট : নূরে মদিনা নাছিরিয়া",
-    subtitle: "হাফেজিয়া মাদ্রাসা ও এতিমখানা",
-    description: "মাদ্রাসার বার্ষিক অনুষ্ঠান ...",
-    image:
-      "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&auto=format&fit=crop",
+    title: "ন্যাচারাল ফটোগ্রাফি কনটেস্ট",
+    subtitle: "এই ইভেন্টের বিজয়ীদের গাছ প্রদান করা হয়।",
+    description: " ...",
+    image: "/images/image3.jpg",
   },
   {
     id: 3,
-    title: "১ টাকায় শিক্ষা ভলান্টিয়ার রিক্রুটমেন্ট",
-    subtitle: "শিক্ষা কার্যক্রম",
-    description: "'এক টাকার শিক্ষা' আলোকিত মানুষ তৈরিতে কাজ করে। যা...",
-    image:
-      "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&auto=format&fit=crop",
+    title: "পরিবেশ দিবসের আলোচনা সভা",
+    subtitle:
+      "যেখানে চট্টগ্রামের পরিচিত স্বাস্থ্য বিশেষজ্ঞ ও পরিবেশবিদদের আমন্ত্রণ জানানো হয়।",
+    description:
+      "তারা পরিবেশ দূষণের ফলে স্বাস্থ্যের কি ক্ষতি হচ্ছে, এর থেকে কিভাবে উত্তরণ হওয়া যায়, ওয়ান হেলথ সহ নানাবিধ গুরুত্বপূর্ণ বিষয় নিয়ে তরুণ শিক্ষার্থীদের সাথে খোলামেলা আলোচনা করে।...",
+    image: "/images/image13.png",
   },
   {
     id: 4,
-    title: "হাসবে সবাই, ঈদ আনন্দে ২০২৩",
-    subtitle: "বছর ঘুরে ঈদ এসেছে",
-    description: "কিন্তু তুমি কি সবসময় আসো? করো ...",
-    image:
-      "https://images.unsplash.com/photo-1528825871115-3581a5387919?w=800&auto=format&fit=crop",
+    title: "চলো করি বৃক্ষরোপণ, বাচাই আপন ভুবন",
+    subtitle:
+      "এই ক্যাম্পেইনের মধ্যে দিয়ে এক টাকায় বৃক্ষরোপণ বিভিন্ন শিক্ষা প্রতিষ্ঠানে দুই হাজার গাছ রোপণ ও বিতরণ করে।",
+    description: "...",
+    image: "/images/image19.jpg",
+  },
+  {
+    id: 5,
+    title: "Tree Plantation Campaign 2023",
+    subtitle:
+      "যেখানে একটি  সুবিধাবঞ্চিত স্কুলের ৫৫ জন শিক্ষার্থীকে গাছ বিতরণ ও গাছের পরিচর্যা বিষয়ে জ্ঞান দেওয়া হবে।",
+    description:
+      "এছাড়াও এক টাকায় বৃক্ষরোপণ পরিবেশ রক্ষার অংশ হিসেবে বিভিন্ন সামাজিক কাজে অংশ গ্রহণ করে।...",
+    image: "/images/image8.jpg",
   },
 ];
 
@@ -91,11 +100,11 @@ export default function SwiperJS() {
                   src={item.image}
                   alt={item.title}
                   className="w-full h-full object-cover"
-                  objectFit="cover"
-                  fill
+                  width={800}
+                  height={800}
                 />
               </div>
-              <div className="p-6 flex flex-col h-[292px]">
+              <div className="p-6 flex flex-col h-[320px]">
                 <h2 className="text-2xl font-bold mb-3 text-gray-900 line-clamp-2 group-hover:text-blue-600 transition-colors">
                   {item.title}
                 </h2>

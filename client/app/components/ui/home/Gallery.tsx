@@ -71,7 +71,8 @@ export const Gallery = () => {
                 src={image}
                 alt={`Gallery image ${index + 1}`}
                 className="w-full h-full object-cover"
-                fill
+                width={800}
+                height={800}
               />
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-opacity duration-300" />
             </div>

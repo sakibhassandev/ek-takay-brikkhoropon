@@ -7,22 +7,21 @@ import StatsBoxes from "../../StatsBoxes";
 
 const Hero = () => {
   return (
-    <div>
-      {/* Hero Section */}
-      <div className="relative h-screen">
-        {/* Background Image */}
-        <div className="absolute inset-0">
-          <Image
-            src="/images/hero.jpg"
-            alt="Children in classroom"
-            fill
-            className="object-cover brightness-50"
-            priority
-          />
-        </div>
+    <div className="relative min-h-screen flex flex-col">
+      {/* Background Image */}
+      <div className="absolute inset-0 -z-10">
+        <Image
+          src="/images/hero.jpg"
+          alt="Children in classroom"
+          fill
+          className="object-cover brightness-50"
+          priority
+        />
+      </div>
 
-        {/* Content */}
-        <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center text-white">
+      {/* Main Content */}
+      <div className="flex-1 flex flex-col">
+        <div className="container mx-auto px-4 flex-1 flex flex-col justify-center items-center text-center text-white py-16">
           <motion.h1
             className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
             initial={{ opacity: 0, y: 20 }}
@@ -51,10 +50,10 @@ const Hero = () => {
             <CustomButton>Donate Us</CustomButton>
           </motion.div>
         </div>
-
-        {/* Stats Boxes */}
-        <StatsBoxes />
       </div>
+
+      {/* Stats Boxes */}
+      <StatsBoxes />
     </div>
   );
 };

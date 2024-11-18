@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
           <div className="facebook group text-sm">
             <Link
-              href="https://facebook.com"
+              href="https://www.facebook.com/groups/2736081320012229/?ref=share&mibextid=NSMWBT"
               target="_blank"
               className="flex gap-2 items-center mt-4"
             >
@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
           <div className="facebook page text-sm">
             <Link
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=100068475481109&mibextid=ZbWKwL"
               target="_blank"
               className="flex gap-2 items-center mt-4"
             >
