@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { overpass, poppins } from "./ui/fonts";
+import { overpass, poppins } from "./components/fonts";
 
 import "./globals.css";
 
