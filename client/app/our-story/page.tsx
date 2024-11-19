@@ -126,9 +126,9 @@ export default function OurStory() {
               </Link>
             </p>
             <p className="font-bold mb-2">
-              "ক্ষুধ ক্ষুধ বালিকারা বিন্দু বিন্দু জল
+              &quot;ক্ষুধ ক্ষুধ বালিকারা বিন্দু বিন্দু জল
             </p>
-            <p className="font-bold">গড়ে তোলো মহাদেশ সাগর অতল"</p>
+            <p className="font-bold">গড়ে তোলো মহাদেশ সাগর অতল&quot;</p>
           </div>
 
           <p className="mb-8 leading-8">
