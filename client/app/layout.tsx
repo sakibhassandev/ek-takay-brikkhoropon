@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { overpass, poppins } from "./components/fonts";
 
+import Header from "./components/ui/Header";
+import Footer from "./components/ui/Footer";
+
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -22,7 +25,9 @@ export default function RootLayout({
       <body
         className={`${overpass.className} ${poppins.className} antialiased`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
