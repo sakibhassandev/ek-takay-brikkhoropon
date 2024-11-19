@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col">
+      <div className="flex-1 flex flex-col mt-20">
         <div className="container mx-auto px-4 flex-1 flex flex-col justify-center items-center text-center text-white py-16">
           <motion.h1
             className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
