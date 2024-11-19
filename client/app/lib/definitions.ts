@@ -14,3 +14,9 @@ export type ImageModalProps = {
   onPrevious: () => void;
   onNext: () => void;
 };
+
+export type FormData = {
+  name: string;
+  email: string;
+  message: string;
+};
