@@ -17,7 +17,7 @@ export default function OurStory() {
           <p className="mb-4 text-sm text-muted-foreground">১১জুন, ২০১৯.</p>
 
           <div className="space-y-6">
-            <p>
+            <p className="leading-8">
               <b>১টাকায় বৃক্ষরোপণ</b> একটি পরিবেশবাদী সংগঠন। যা ২০১৯সালের ১১জুন
               প্রতিষ্ঠা লাভ করে। সংগঠনটি তার জন্মলগ্ন থেকে পরিবেশ সুরক্ষায় কাজ
               করে যাচ্ছে। মূলত দৈনিক এক টাকা সঞ্চয় করার মধ্যে দিয়ে একজন ব্যক্তি
@@ -27,7 +27,7 @@ export default function OurStory() {
               মধ্যে দিয়ে ২৫%বনায়নে আমরা উন্নীত হতে পারবো। - এই ভাবনা থেকে এক
               টাকায় বৃক্ষরোপণ এর যাত্রা শুরু।
             </p>
-            <p>
+            <p className="leading-8">
               ১টাকায় বৃক্ষরোপণ শুধুমাত্র বৃক্ষরোপণ নয়, বৃক্ষের পরিচর্যাও নিশ্চিত
               করছে। পাশাপাশি মানুষকে সচেতন করতে, সদস্যদের দক্ষতা বৃদ্ধিতে
               সংগঠনটি ইতিমধ্যে বেশকিছু ক্যাম্পেইনও পরিচালনা করেছে।{" "}
@@ -81,13 +81,13 @@ export default function OurStory() {
             </div>
           </div>
 
-          <p className="my-8">
+          <p className="my-8 leading-8">
             আসুন না, একটি বার আমাদের নিজেদের অবস্থান থেকে একটু চেষ্টায় এই
             সুবিধাবঞ্চিত এবং টাকার অভাবে আঁধারে রয়ে যাওয়া প্রাণগুলোকে আরেকটাবার
             উজ্জীবিত করে তুলি ঠিক স্বাধীনতার রক্তিম সূর্যের মত।
           </p>
 
-          <div className="flex justify-between gap-4 mb-8">
+          <div className="flex justify-between max-sm:flex-col gap-4 mb-8">
             <CustomButton
               variant="outline"
               className="bg-orange-400 text-black border-2 border-orange-300 px-8 py-3 rounded-md font-medium"
@@ -112,7 +112,7 @@ export default function OurStory() {
             </CustomButton>
           </div>
 
-          <p className="mb-8">
+          <p className="mb-8 leading-8">
             আসুন, আমরা আমাদের নিজেদের অবদান থেকে একটু চেষ্টা করি এই সুবিধাবঞ্চিত
             এবং ঠিকানা অভাবে অক্ষরারে রয়ে যাওয়া প্রাণগুলোকে আলোকবর্তিকার
             উজ্জীবিত করার ঠিক স্বাধীনতার রক্তিম সূর্যের ন্যায়।
@@ -131,7 +131,7 @@ export default function OurStory() {
             <p className="font-bold">গড়ে তোলো মহাদেশ সাগর অতল"</p>
           </div>
 
-          <p className="mb-8">
+          <p className="mb-8 leading-8">
             আমাদের এই ক্ষুদ্র অবদানে হয়তো কারো জীবন বদলাবে। হয়তো এই
             সুবিধাবঞ্চিতদের মধ্যেই লুকিয়ে আছে আগামীর জাস্টিস হোসেন, এ. পি. জে.
             আব্দুল কালামদের মত গুণী ব্যক্তিত্ব।
@@ -139,7 +139,7 @@ export default function OurStory() {
 
           <div className="space-y-4">
             <h2 className="text-xl font-bold">মূল বিষয়</h2>
-            <p>
+            <p className="leading-8">
               আপনি প্রতিদিন ১ টাকা করে প্রতি মাসে ৩০ টাকা দিবেন। এভাবে ১০০ মানুষ
               প্রতি মাসে ৩০ টাকা করে দিলে হয় (৩০*১০০=৩০০০ টাকা)। এভাবে ২ হাজার
               বা ১০ হাজার মানুষের বৃহৎ একটি পরিবার পাবে এই সুবিধাবঞ্চিত এবং
