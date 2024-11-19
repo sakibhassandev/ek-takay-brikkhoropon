@@ -17,6 +17,7 @@ export default function ContactPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const onSubmit = (data: FormData) => {
+    console.log(data);
     setIsSubmitted(true);
     reset();
     setTimeout(() => setIsSubmitted(false), 3000);
