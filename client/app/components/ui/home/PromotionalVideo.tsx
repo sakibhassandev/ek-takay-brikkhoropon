@@ -1,6 +1,6 @@
 export default function PromotionalVideo() {
   return (
-    <div className="max-w-4xl mt-72 sm:mt-52 md:mt-16 mx-auto space-y-8">
+    <div className="max-w-4xl mt-16 mx-auto space-y-8">
       {/* Video Section */}
       <div className="aspect-video w-full">
         <iframe

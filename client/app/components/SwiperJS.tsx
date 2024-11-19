@@ -104,7 +104,7 @@ export default function SwiperJS() {
                   height={800}
                 />
               </div>
-              <div className="p-6 flex flex-col h-[320px]">
+              <div className="p-6 flex flex-col sm:h-[320px]">
                 <h2 className="text-2xl font-bold mb-3 text-gray-900 line-clamp-2 group-hover:text-blue-600 transition-colors">
                   {item.title}
                 </h2>
