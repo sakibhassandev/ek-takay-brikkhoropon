@@ -1,13 +1,15 @@
-import ContactPage from "../components/ui/contact/ContactPage";
+import { CollectionPage } from "@/app/components/ui/collections/CollectionPage";
 
 export const metadata = {
-  title: "যোগাযোগ",
+  title: "সংগ্রহ",
   description:
     "১টাকায় বৃক্ষরোপণ একটি পরিবেশবাদী সংগঠন। যা ২০১৯সালের ১১জুন প্রতিষ্ঠা লাভ করে। সংগঠনটি তার জন্মলগ্ন থেকে পরিবেশ সুরক্ষায় কাজ করে যাচ্ছে। মূলত দৈনিক এক টাকা সঞ্চয় করার মধ্যে দিয়ে একজন ব্যক্তি ত্রিশ দিনে ত্রিশ টাকা সঞ্চয় করবে। যা দিয়ে মাসে একটি গাছ রোপণ করবে। এভাবে আমরা যদি এই ক্যাম্পেইনটি ১৬কোটি মানুষের কাছে পৌছাতে পারি তবে দৈনিক এক টাকা সঞ্চয়ের মধ্যে দিয়ে মাসে ১৬কোটি গাছ রোপণ সম্ভব। যার মধ্যে দিয়ে ২৫%বনায়নে আমরা উন্নীত হতে পারবো। - এই ভাবনা থেকে এক টাকায় বৃক্ষরোপণ এর যাত্রা শুরু।",
 };
 
-const Contact = () => {
-  return <ContactPage />;
-};
-
-export default Contact;
+export default function Collections() {
+  return (
+    <div className="mt-20 min-h-screen bg-gray-50 p-4 md:p-8">
+      <CollectionPage />
+    </div>
+  );
+}

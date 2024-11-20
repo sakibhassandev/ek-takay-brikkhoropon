@@ -20,3 +20,20 @@ export type FormData = {
   email: string;
   message: string;
 };
+
+export type Collections = {
+  id: string;
+  timestamp: string;
+  type: string;
+  amount: number;
+  phone: string;
+  fullId: string;
+  fullPhone: string;
+};
+
+export type Expenses = {
+  id: string;
+  date: string;
+  amount: number;
+  description: string;
+};

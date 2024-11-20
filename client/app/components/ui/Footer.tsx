@@ -68,7 +68,6 @@ const Footer = () => {
           <div className="facebook group text-sm">
             <Link
               href="https://www.facebook.com/groups/2736081320012229/?ref=share&mibextid=NSMWBT"
-              target="_blank"
               className="flex gap-2 items-center mt-4"
             >
               <Facebook
@@ -81,7 +80,6 @@ const Footer = () => {
           <div className="facebook page text-sm">
             <Link
               href="https://www.facebook.com/profile.php?id=100068475481109&mibextid=ZbWKwL"
-              target="_blank"
               className="flex gap-2 items-center mt-4"
             >
               <Facebook
@@ -103,7 +101,6 @@ const Footer = () => {
               <li key={item.name}>
                 <Link
                   href={`${item.link}`}
-                  target="_blank"
                   className="text-sm inline-block mb-2 hover:text-orange-500 transition-colors"
                 >
                   {item.name}
@@ -144,7 +141,6 @@ const Footer = () => {
                 This web application is designed and developed by{" "}
                 <Link
                   href="https://sakibhassan.com"
-                  target="_blank"
                   className="font-bold text-base hover:text-orange-500 transition-colors"
                 >
                   Sakib Hassan
